@@ -1,0 +1,28 @@
+name: Issue Form Templates are not supported on private repositories
+description: Issue Form Templates are not supported on private repositories
+title: "[Issue Form Templates are not supported on private repositories]: "
+labels: ["Issue Form Templates are not supported on private repositories"]
+assignees: quackware
+body:
+  - type: dropdown
+    id: dropdown
+    attributes:
+      label: Issue Form Templates
+      options:
+        - Are not supported
+        - on private
+        - Repositories
+  - type: textarea
+    id: issue-forms
+    attributes:
+      label: Upload an issue forms template
+      placeholder: But not on a private repository
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Great!
+        
+        1. Wow
+        2. Issue Form Templates are not supported on private repositories
